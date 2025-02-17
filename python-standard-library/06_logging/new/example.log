@@ -1,0 +1,3 @@
+2025-02-17 20:47:28 - root - INFO - 02_logging_basicConfig体验.py:18 - So should this
+2025-02-17 20:47:28 - root - WARNING - 02_logging_basicConfig体验.py:19 - And this, too
+2025-02-17 20:47:28 - root - ERROR - 02_logging_basicConfig体验.py:20 - And non-ASCII stuff, too, like Øresund and Malmö

@@ -1,0 +1,8 @@
+2025-02-17 20:50:42 - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "D:\code_workspace\self_project\study-python-language\python-standard-library\06_logging\new\03_高级的单个日志管理器.py", line 46, in <module>
+    my_function()
+  File "D:\code_workspace\self_project\study-python-language\python-standard-library\06_logging\new\03_高级的单个日志管理器.py", line 38, in my_function
+    result = 10 / 0
+             ~~~^~~
+ZeroDivisionError: division by zero
