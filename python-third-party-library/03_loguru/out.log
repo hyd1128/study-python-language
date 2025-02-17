@@ -1,0 +1,34 @@
+2024-10-17 10:39:06.460 | ERROR    | __main__:nested:64 - What?!
+Traceback (most recent call last):
+
+  File "D:\computer_study_notes\02_python\01_workspace\2024_\python_new_feature\07_python第三方库_loguru\01_quickstart.py", line 66, in <module>
+    nested(0)
+    └ <function nested at 0x0000021BAD2D1A20>
+
+> File "D:\computer_study_notes\02_python\01_workspace\2024_\python_new_feature\07_python第三方库_loguru\01_quickstart.py", line 62, in nested
+    func(5, c)
+    │       └ 0
+    └ <function func at 0x0000021BAAB93E20>
+
+  File "D:\computer_study_notes\02_python\01_workspace\2024_\python_new_feature\07_python第三方库_loguru\01_quickstart.py", line 58, in func
+    return a / b
+           │   └ 0
+           └ 5
+
+ZeroDivisionError: division by zero
+2024-10-17 10:45:27.791 | INFO     | __main__:<module>:73 - Contextualize your logger easily
+2024-10-17 10:45:27.791 | INFO     | __main__:<module>:74 - Inline binding of extra attribute
+2024-10-17 10:45:27.791 | INFO     | __main__:<module>:75 - Use kwargs to add context during formatting: anybody
+2024-10-17 10:47:18.205 | DEBUG    | __main__:<module>:82 - If sink level <= DEBUG: None
+2024-10-17 10:47:18.205 | INFO     | __main__:<module>:85 - Error stacktrace added to the log message (tuple accepted too)
+NoneType: None
+2024-10-17 10:47:18.205 | INFO     | __main__:<module>:86 - Per message colors
+2024-10-17 10:47:18.205 | INFO     | __main__:<module>:87 - Display values from the record (eg. 8708)
+Bypass sink formatting
+2024-10-17 10:47:27.559 | INFO     | __main__:<module>:82 - Error stacktrace added to the log message (tuple accepted too)
+NoneType: None
+2024-10-17 10:47:27.559 | INFO     | __main__:<module>:83 - Per message colors
+2024-10-17 10:47:27.559 | INFO     | __main__:<module>:84 - Display values from the record (eg. 55300)
+Bypass sink formatting
+2024-10-17 10:49:50.864 | SNAKY    | __main__:<module>:93 - Here we go!
+2024-10-17 10:50:49.192 | DEBUG    | __main__:<module>:97 - jianghcnejgiancheng1
