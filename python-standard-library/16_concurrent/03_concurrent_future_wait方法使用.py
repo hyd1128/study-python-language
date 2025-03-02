@@ -22,6 +22,6 @@ with concurrent.futures.ThreadPoolExecutor() as executor:
     # concurrent.futures.ALL_COMPLETED：所有任务完成时返回（这是默认值）。
     done, not_done = concurrent.futures.wait(futures, return_when=concurrent.futures.FIRST_EXCEPTION)
 
-    # 输出已完成的任务结果
+    # 输出已完成的任务结果s
     for future in done:
         print(f"Task result: {future.result()}")
