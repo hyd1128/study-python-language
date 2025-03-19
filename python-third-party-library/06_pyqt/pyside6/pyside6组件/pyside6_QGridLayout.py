@@ -26,7 +26,7 @@ class GridLayoutDemo(QWidget):
         # 开始表演
         spacer = QSpacerItem(100, 70, QSizePolicy.Maximum)
         grid.addItem(spacer, 0, 0, 1, 1)
-        grid.addWidget(QPushButton('row1_col2_1_1'), 1, 2, 1, 1)
+        grid.addWidget(QLabel('row1_col2_1_1'), 1, 2, 1, 1)
         grid.addWidget(QPushButton('row1_col3_1_1'), 1, 3, 1, 1)
         grid.addWidget(QPlainTextEdit('row2_col4_2_2'), 2, 4, 2, 2)
         grid.addWidget(QPlainTextEdit('row3_col2_2_2'), 3, 2, 2, 2)
