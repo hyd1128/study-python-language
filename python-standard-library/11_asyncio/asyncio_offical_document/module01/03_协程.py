@@ -24,6 +24,9 @@ async def main():
 
     print(f"started at {time.strftime('%X')}")
 
+    print(type(task1))
+    print(type(task2))
+
     # 等待两个任务都要完成需要2秒
     await task1
     await task2

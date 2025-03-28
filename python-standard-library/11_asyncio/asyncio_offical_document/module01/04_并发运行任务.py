@@ -29,6 +29,7 @@ async def main():
         factorial("C", 4),
     )
     print("----------")
+    print(type(L))
     print(L)
 
 

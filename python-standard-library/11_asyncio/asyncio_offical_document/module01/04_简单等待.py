@@ -6,12 +6,14 @@
 
 import asyncio
 
+
 async def foo():
     return 42
 
+
 async def main():
-    # coro = asyncio.create_task(foo())
-    coro = foo()
+    coro = asyncio.create_task(foo())
+    # coro = foo()
     # wait会自动将协程对象转化为task
 
     done, pending = await asyncio.wait({coro})
@@ -19,5 +21,6 @@ async def main():
     print(pending)
     print(coro)
     print(coro in done)
+
 
 asyncio.run(main())
